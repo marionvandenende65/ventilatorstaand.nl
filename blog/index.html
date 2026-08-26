@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Alle artikelen | Staande Ventilator</title>
+<meta name="description" content="Staande ventilators vergeleken: kiezen, koelen en besparen">
+<link rel="canonical" href="https://ventilatorstaand.nl/blog/">
+<meta property="og:title" content="Alle artikelen | Staande Ventilator">
+<meta property="og:description" content="Staande ventilators vergeleken: kiezen, koelen en besparen">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://ventilatorstaand.nl/blog/">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Albert+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --accent:#2e9fd6;
+  --accent-ink:color-mix(in srgb, var(--accent) 78%, #0b0713);
+  --accent-tint:color-mix(in srgb, var(--accent) 8%, #ffffff);
+  --accent-tint2:color-mix(in srgb, var(--accent) 14%, #ffffff);
+  --ink:#13111c;--ink-2:#211d30;--ink-3:#322c47;
+  --paper:#ffffff;--mist:#f6f6fb;--lilac:#edecf6;
+  --body:#403c52;--soft:#6d6982;--soft-2:#8f8ba1;
+  --line:#e7e5f1;--line-d:rgba(255,255,255,.12);
+  --shadow:0 0 12px rgba(20,16,40,.07);
+  --shadow-sm:0 6px 18px -10px rgba(20,16,40,.22);
+  --shadow-lg:0 26px 50px -26px rgba(20,16,40,.42);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{font-family:'Albert Sans',system-ui,Segoe UI,Arial,sans-serif;background:var(--paper);color:var(--body);line-height:1.68;font-size:18px;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,h4,h5{font-family:'Sora',system-ui,sans-serif;color:var(--ink);letter-spacing:-.012em;text-wrap:balance;line-height:1.15;overflow-wrap:break-word}
+.wrap{max-width:1200px;margin:0 auto;padding:0 32px}
+.col{max-width:760px;margin:0 auto;padding:0 32px}
+/* ---------- signatuur: eyebrow + ruit-mark ---------- */
+.eyebrow{display:inline-flex;align-items:center;gap:9px;flex-wrap:wrap;font-family:'Sora',sans-serif;font-size:.75rem;font-weight:700;letter-spacing:1.6px;text-transform:uppercase;color:var(--ink-2);line-height:1}
+.eyebrow .mk{width:10px;height:10px;flex:0 0 auto;color:var(--accent);transform:rotate(45deg);border:2px solid currentColor}
+.eyebrow.light{color:rgba(255,255,255,.9)}
+.eyebrow.on-accent .mk{background:var(--accent);border-color:var(--accent)}
+/* ---------- knop ---------- */
+.btn{display:inline-flex;align-items:center;gap:11px;background:var(--accent);color:#fff;font-family:'Sora',sans-serif;font-weight:700;font-size:.8125rem;letter-spacing:1.6px;text-transform:uppercase;border-radius:2px;padding:.9rem 1.7rem;text-decoration:none;transition:background .3s,transform .2s,box-shadow .2s;line-height:1}
+.btn .arw{transition:transform .25s}
+.btn:hover{background:var(--accent-ink);transform:translateY(-2px);box-shadow:var(--shadow-sm)}
+.btn:hover .arw{transform:translateX(4px)}
+.btn.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line);padding:calc(.9rem - 1.5px) calc(1.7rem - 1.5px)}
+.btn.ghost:hover{border-color:var(--accent);color:var(--accent);background:transparent}
+/* ---------- badge ---------- */
+.badge{display:inline-block;font-family:'Sora',sans-serif;font-size:.625rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);background:#fff;border-radius:2px;padding:.42rem .6rem;line-height:1}
+/* ================= TOPBAR (slank, donker) ================= */
+.topbar{background:var(--ink-2);color:rgba(255,255,255,.72);position:relative;z-index:20}
+.topbar .tin{max-width:1200px;margin:0 auto;padding:.7rem 32px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.topbar a{color:rgba(255,255,255,.78);text-decoration:none;font-size:.8125rem;transition:color .3s}
+.topbar a:hover{color:#fff}
+.topbar .tl{display:flex;gap:22px;flex-wrap:wrap}
+.topbar .tr{font-family:'Sora',sans-serif;font-size:.7rem;letter-spacing:1.4px;text-transform:uppercase;color:rgba(255,255,255,.55);white-space:nowrap}
+/* ================= HEADER ================= */
+header.site{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:30}
+header.site .bar{max-width:1200px;margin:0 auto;padding:20px 32px;display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+.logo{display:inline-flex;align-items:center;gap:11px;font-family:'Sora',sans-serif;font-weight:700;font-size:1.35rem;letter-spacing:-.02em;color:var(--ink);text-decoration:none}
+.logo .mk{width:14px;height:14px;flex:0 0 auto;background:var(--accent);transform:rotate(45deg);border-radius:2px}
+header.site nav{display:flex;flex-wrap:wrap;gap:26px}
+header.site nav a{position:relative;font-family:'Sora',sans-serif;font-size:1rem;font-weight:700;color:var(--ink-2);text-decoration:none;padding:4px 0}
+header.site nav a::after{content:'';position:absolute;left:50%;bottom:-3px;transform:translateX(-50%);width:0;height:3px;border-radius:2px;background:var(--accent);transition:width .3s ease}
+header.site nav a:hover{color:var(--ink)}
+header.site nav a:hover::after{width:24px}
+/* ================= HERO (home) ================= */
+.hero{background:var(--mist);border-bottom:1px solid var(--line);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-40%;right:-8%;width:46%;height:150%;background:radial-gradient(closest-side,var(--accent-tint2),transparent 72%);opacity:.7;pointer-events:none}
+.hero .hin{position:relative;max-width:900px;margin:0 auto;padding:88px 32px 84px;text-align:center}
+.hero .eyebrow{justify-content:center}
+.hero h1{font-size:clamp(2.4rem,5.4vw,3.6rem);font-weight:700;margin:22px 0 0;color:var(--ink)}
+.hero .lead{font-size:clamp(1.05rem,1.6vw,1.22rem);color:var(--body);max-width:56ch;margin:20px auto 0;line-height:1.66}
+.hero .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:32px}
+.hero .meta{display:flex;gap:34px;justify-content:center;flex-wrap:wrap;margin-top:44px}
+.hero .meta .m .n{font-family:'Sora',sans-serif;font-weight:700;font-size:1.7rem;color:var(--ink);line-height:1}
+.hero .meta .m .l{font-family:'Sora',sans-serif;font-size:.68rem;font-weight:600;letter-spacing:1.4px;text-transform:uppercase;color:var(--soft-2);margin-top:8px}
+/* ================= SECTIE-BASIS ================= */
+.band{padding:88px 0}
+.band.tight{padding:64px 0}
+.band.mist{background:var(--mist)}
+.sec-head{max-width:640px;margin-bottom:44px}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head.center .eyebrow{justify-content:center}
+.sec-head h2{font-size:clamp(1.8rem,3.4vw,2.4rem);font-weight:600;margin-top:16px;color:var(--ink)}
+.sec-head p{color:var(--body);margin-top:12px;font-size:1.05rem;max-width:60ch}
+.sec-head.center p{margin-left:auto;margin-right:auto}
+/* ================= KAARTEN ================= */
+.cards-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
+.cards-3.few{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{display:flex;flex-direction:column;background:var(--paper);border:1px solid var(--line);border-radius:2px;box-shadow:var(--shadow);text-decoration:none;color:inherit;overflow:hidden;transition:transform .3s,box-shadow .3s,border-color .3s}
+.card:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg);border-color:transparent}
+.card .ph{position:relative;aspect-ratio:16/9;overflow:hidden;background:var(--lilac)}
+.card .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.card:hover .ph img{transform:scale(1.05)}
+.card .ph .badge{position:absolute;left:16px;top:16px}
+.card .cbody{padding:1.6rem 1.6rem 1.7rem;display:flex;flex-direction:column;gap:.55rem;flex:1}
+.card.noimg{border-top:3px solid var(--accent)}
+.card .dt{font-family:'Sora',sans-serif;font-size:.68rem;font-weight:600;letter-spacing:1.3px;text-transform:uppercase;color:var(--soft-2)}
+.card h3{font-family:'Sora',sans-serif;font-weight:600;font-size:1.24rem;line-height:1.28;color:var(--ink);transition:color .25s}
+.card:hover h3{color:var(--accent)}
+.card p{color:var(--body);font-size:.95rem;line-height:1.6}
+.card .more{margin-top:auto;padding-top:6px;display:inline-flex;align-items:center;gap:8px;font-family:'Sora',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--accent)}
+.card .more .arw{transition:transform .25s}
+.card:hover .more .arw{transform:translateX(4px)}
+/* ================= CATEGORIE-TEGELS ================= */
+.cats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem}
+.cat-tile{position:relative;display:flex;flex-direction:column;background:var(--paper);border-radius:2px;box-shadow:var(--shadow);text-decoration:none;color:inherit;overflow:hidden;transition:transform .3s,box-shadow .3s}
+.cat-tile:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
+.cat-tile .ph{position:relative;aspect-ratio:4/3;overflow:hidden;background:var(--lilac)}
+.cat-tile .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s cubic-bezier(.2,.7,.2,1)}
+.cat-tile:hover .ph img{transform:scale(1.06)}
+.cat-tile .ph .no{position:absolute;left:16px;top:14px;font-family:'Sora',sans-serif;font-weight:700;font-size:.9rem;letter-spacing:1px;color:#fff;text-shadow:0 1px 8px rgba(0,0,0,.5)}
+.cat-tile{border:1px solid var(--line)}
+.cat-tile:hover{border-color:transparent}
+.cat-tile .cbody{padding:1.4rem 1.4rem 1.55rem;display:flex;flex-direction:column;gap:.5rem;flex:1}
+.cat-tile.noimg{border-top:3px solid var(--accent)}
+.cat-tile.noimg .cbody .no{font-family:'Sora',sans-serif;font-weight:700;font-size:.78rem;letter-spacing:1.4px;color:var(--accent)}
+.cat-tile h3{font-family:'Sora',sans-serif;font-weight:600;font-size:1.18rem;color:var(--ink);transition:color .25s}
+.cat-tile:hover h3{color:var(--accent)}
+.cat-tile p{color:var(--body);font-size:.9rem;line-height:1.55}
+.cat-tile .more{margin-top:auto;padding-top:4px;display:inline-flex;align-items:center;gap:8px;font-family:'Sora',sans-serif;font-size:.68rem;font-weight:700;letter-spacing:1.4px;text-transform:uppercase;color:var(--accent)}
+.cat-tile .more .arw{transition:transform .25s}
+.cat-tile:hover .more .arw{transform:translateX(4px)}
+/* ================= PROZA (homebody / pillar) ================= */
+.prose-wrap{max-width:820px;margin:0 auto;padding:0 32px}
+.prose{font-size:1.075rem;line-height:1.8;color:var(--body)}
+.prose>p:first-child{font-size:1.16em;color:var(--ink-3)}
+.prose p{margin-bottom:1.3rem}
+.prose h2{font-family:'Sora',sans-serif;font-size:clamp(1.5rem,2.6vw,1.9rem);font-weight:600;color:var(--ink);margin:2.6rem 0 1rem;padding-top:1.4rem;position:relative}
+.prose h2::before{content:'';position:absolute;top:0;left:0;width:30px;height:3px;border-radius:2px;background:var(--accent)}
+.prose h3{font-family:'Sora',sans-serif;font-size:1.32rem;font-weight:600;color:var(--ink);margin:2rem 0 .7rem}
+.prose a{color:var(--accent);text-decoration:none;border-bottom:1.5px solid var(--accent-tint2);transition:border-color .2s}
+.prose a:hover{border-color:var(--accent)}
+.prose strong{color:var(--ink);font-weight:700}
+.prose ul,.prose ol{margin:0 0 1.4rem;padding:0;list-style:none}
+.prose ul li,.prose ol li{position:relative;padding-left:28px;margin-bottom:.6rem}
+.prose ul li::before{content:'';position:absolute;left:3px;top:.62em;width:8px;height:8px;background:var(--accent);transform:rotate(45deg);border-radius:1px}
+.prose ol{counter-reset:pi}
+.prose ol li{counter-increment:pi}
+.prose ol li::before{content:counter(pi);position:absolute;left:0;top:0;font-family:'Sora',sans-serif;font-weight:700;font-size:.82em;color:var(--accent)}
+/* ================= CTA-BAND (donker) ================= */
+.cta{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.cta::before{content:'';position:absolute;top:-50%;left:-6%;width:40%;height:180%;background:radial-gradient(closest-side,color-mix(in srgb,var(--accent) 40%,transparent),transparent 70%);opacity:.6;pointer-events:none}
+.cta .cin{position:relative;max-width:760px;margin:0 auto;padding:82px 32px;text-align:center}
+.cta .eyebrow{justify-content:center;color:rgba(255,255,255,.85)}
+.cta h2{color:#fff;font-size:clamp(1.9rem,3.6vw,2.6rem);font-weight:600;margin-top:16px}
+.cta p{color:rgba(255,255,255,.72);margin-top:14px;font-size:1.08rem;max-width:52ch;margin-left:auto;margin-right:auto}
+.cta .btn{margin-top:30px;background:#fff;color:var(--ink)}
+.cta .btn:hover{background:var(--accent);color:#fff}
+/* ================= PAGINA-HERO (index + categorie + blog) ================= */
+.phero{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+.phero.photo::before{content:'';position:absolute;inset:0;background:var(--bg) center/cover no-repeat;opacity:.32}
+.phero::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(19,17,28,.55),rgba(19,17,28,.9))}
+.phero .pin{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:76px 32px 68px}
+.phero.narrow .pin{max-width:820px}
+.crumb{font-family:'Sora',sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.3px;color:rgba(255,255,255,.7);margin-bottom:20px}
+.crumb a{color:rgba(255,255,255,.92);text-decoration:none;border-bottom:1px solid var(--line-d)}
+.crumb a:hover{color:#fff}
+.phero h1{color:#fff;font-size:clamp(2.1rem,5vw,3.2rem);font-weight:700;margin-top:14px;max-width:20ch}
+.phero .lead{color:rgba(255,255,255,.8);margin-top:16px;font-size:1.1rem;max-width:60ch;line-height:1.66}
+.phero .eyebrow.light .mk{background:var(--accent);border-color:var(--accent)}
+/* ================= ARTIKEL ================= */
+.artmeta{max-width:820px;margin:0 auto;padding:26px 32px 0}
+.artmeta .byline{font-family:'Sora',sans-serif;font-size:.82rem;font-weight:600;letter-spacing:.4px;color:var(--soft)}
+.hero-photo{max-width:900px;margin:26px auto 0;padding:0 32px}
+.hero-photo img{width:100%;border-radius:2px;box-shadow:var(--shadow-sm)}
+.hero-photo figcaption{font-family:'Sora',sans-serif;font-size:.72rem;color:var(--soft-2);margin-top:9px;letter-spacing:.2px}
+article.post{max-width:760px;margin:0 auto;padding:40px 32px 20px}
+article.post .body{font-size:1.09rem;line-height:1.8;color:var(--body)}
+article.post .body>p:first-of-type{font-size:1.1em;color:var(--ink-3)}
+article.post .body h2{font-family:'Sora',sans-serif;font-size:clamp(1.5rem,2.8vw,1.95rem);font-weight:600;color:var(--ink);margin:2.7rem 0 1rem;padding-top:1.5rem;position:relative}
+article.post .body h2::before{content:'';position:absolute;top:0;left:0;width:32px;height:3px;border-radius:2px;background:var(--accent)}
+article.post .body h3{font-family:'Sora',sans-serif;font-size:1.35rem;font-weight:600;color:var(--ink);margin:2rem 0 .7rem}
+article.post .body p{margin:1.1rem 0}
+article.post .body a{color:var(--accent);text-decoration:none;border-bottom:1.5px solid var(--accent-tint2)}
+article.post .body a:hover{border-color:var(--accent)}
+article.post .body strong{color:var(--ink);font-weight:700}
+article.post .body ul,article.post .body ol{margin:1.1rem 0;padding:0;list-style:none}
+article.post .body li{position:relative;padding-left:28px;margin-bottom:.6rem}
+article.post .body ul li::before{content:'';position:absolute;left:3px;top:.62em;width:8px;height:8px;background:var(--accent);transform:rotate(45deg);border-radius:1px}
+article.post .body ol{counter-reset:pi}
+article.post .body ol li{counter-increment:pi}
+article.post .body ol li::before{content:counter(pi);position:absolute;left:0;top:0;font-family:'Sora',sans-serif;font-weight:700;color:var(--accent)}
+/* faq */
+.faq{max-width:760px;margin:54px auto 0;padding:0 32px}
+.faq .faq-title{font-family:'Sora',sans-serif;font-size:1.55rem;font-weight:600;color:var(--ink);margin-bottom:6px}
+.faq dl{margin-top:16px}
+.faq dt{font-family:'Sora',sans-serif;font-weight:600;font-size:1.1rem;color:var(--ink);padding:20px 0 0;border-top:1px solid var(--line)}
+.faq dt:first-of-type{border-top:none;padding-top:0}
+.faq dd{color:var(--body);margin:8px 0 20px}
+.faq dd a{color:var(--accent)}
+/* related */
+.relwrap{max-width:1200px;margin:70px auto 0;padding:0 32px}
+.relwrap .rel-title{font-family:'Sora',sans-serif;font-size:1.55rem;font-weight:600;color:var(--ink);margin-bottom:22px}
+/* index / grids wrappers */
+.gridwrap{max-width:1200px;margin:0 auto;padding:64px 32px}
+.empty{max-width:1200px;margin:40px auto;padding:0 32px;color:var(--soft)}
+.more-row{max-width:1200px;margin:36px auto 0;padding:0 32px;text-align:center}
+/* ================= FOOTER ================= */
+footer.site{background:var(--ink);color:rgba(255,255,255,.72);margin-top:0}
+footer.site .ftop{max-width:1200px;margin:0 auto;padding:66px 32px 40px;display:grid;grid-template-columns:2fr 1fr 1fr;gap:34px}
+footer.site .brand{display:inline-flex;align-items:center;gap:11px;font-family:'Sora',sans-serif;font-weight:700;font-size:1.3rem;color:#fff}
+footer.site .brand .mk{width:14px;height:14px;background:var(--accent);transform:rotate(45deg);border-radius:2px}
+footer.site .tl{color:rgba(255,255,255,.6);margin-top:14px;max-width:42ch;font-size:.95rem;line-height:1.7}
+footer.site h4{font-family:'Sora',sans-serif;font-size:.72rem;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,.5);margin-bottom:16px}
+footer.site a{color:rgba(255,255,255,.78);text-decoration:none;display:block;padding:5px 0;font-size:.95rem;transition:color .25s}
+footer.site a:hover{color:#fff}
+footer.site .fine{max-width:1200px;margin:0 auto;padding:22px 32px 34px;border-top:1px solid var(--line-d);font-family:'Sora',sans-serif;font-size:.78rem;letter-spacing:.3px;color:rgba(255,255,255,.5);display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+/* ================= RESPONSIVE ================= */
+@media(max-width:1024px){
+  .cards-3{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .cats{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:768px){
+  .topbar{display:none}
+  header.site{position:static}
+  footer.site .ftop{grid-template-columns:1fr 1fr}
+  footer.site .brand-col{grid-column:1/-1}
+}
+@media(max-width:620px){
+  body{font-size:17px}
+  .wrap,.col,.prose-wrap,.gridwrap,.artmeta,.hero-photo,.faq,.relwrap,.more-row{padding-left:22px;padding-right:22px}
+  .topbar .tin,header.site .bar,.hero .hin,.phero .pin,.cta .cin,footer.site .ftop,footer.site .fine{padding-left:22px;padding-right:22px}
+  .band{padding:60px 0}
+  .hero .hin{padding:56px 22px 54px}
+  .hero h1{font-size:clamp(1.85rem,7.8vw,2.3rem);overflow-wrap:anywhere;hyphens:auto}
+  .hero .lead{font-size:1rem}
+  .hero .cta-row{margin-top:26px}
+  .hero .btn{width:100%;justify-content:center}
+  .cards-3,.cards-3.few{grid-template-columns:1fr}
+  .cats{grid-template-columns:1fr}
+  .hero .meta{gap:0;justify-content:space-between;margin-top:34px}
+  .hero .meta .m{flex:1;min-width:0;text-align:center}
+  .hero .meta .m .n{font-size:1.45rem}
+  .hero .meta .m .l{font-size:.58rem;letter-spacing:.8px}
+  .phero h1{font-size:clamp(1.8rem,7.4vw,2.3rem);overflow-wrap:anywhere}
+  article.post{padding:32px 22px 16px}
+}
+@media(prefers-reduced-motion:reduce){
+  *{scroll-behavior:auto!important}
+  .card .ph img,.cat-tile .ph img{transition:none!important}
+  .card:hover .ph img,.cat-tile:hover .ph img,.card:hover,.cat-tile:hover{transform:none!important}
+}
+
+</style>
+<!-- Google Analytics 4 --><script async src="https://www.googletagmanager.com/gtag/js?id=G-SCY4CEDL57"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SCY4CEDL57');</script>
+</head>
+<body class="t-index"><style id="dnd-banner-css">:root{--dnd-h:140px}#dnd-banner,#dnd-banner *{box-sizing:border-box;margin:0;padding:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.4;letter-spacing:normal;text-transform:none;float:none}#dnd-banner{position:sticky;top:0;z-index:2147483000;display:flex;align-items:center;gap:28px;height:var(--dnd-h);min-height:var(--dnd-h);padding:0 clamp(16px,4vw,40px);background:#fff;border-bottom:1px solid #e2e7ec;box-shadow:0 1px 3px rgba(22,32,43,.06);color:#16202b;overflow:hidden}#dnd-banner .dnd-main{flex:1 1 auto;min-width:0}#dnd-banner .dnd-kicker{display:block;font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#0f5c4a;margin-bottom:3px}#dnd-banner .dnd-domain{display:block;font-size:clamp(19px,2.4vw,25px);font-weight:650;color:#16202b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#dnd-banner .dnd-note{display:block;font-size:12.5px;color:#52606d;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#dnd-banner .dnd-stats{display:flex;gap:26px;flex:0 0 auto}#dnd-banner .dnd-stat{text-align:right;white-space:nowrap}#dnd-banner .dnd-stat-v{display:block;font-size:19px;font-weight:700;color:#16202b}#dnd-banner .dnd-stat-v em{font-style:normal;font-size:11.5px;font-weight:500;color:#7b8794}#dnd-banner .dnd-stat-l{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:#7b8794;margin-top:1px}#dnd-banner .dnd-buy{display:flex;align-items:center;gap:16px;flex:0 0 auto}#dnd-banner .dnd-price{font-size:23px;font-weight:700;color:#0f5c4a;white-space:nowrap}#dnd-banner .dnd-cta{display:inline-block;padding:12px 22px;border-radius:10px;background:#0f5c4a;color:#fff;text-decoration:none;font-size:14.5px;font-weight:600;white-space:nowrap;border:0}#dnd-banner .dnd-cta:hover{background:#0a4436;color:#fff;text-decoration:none}@media(max-width:1000px){#dnd-banner .dnd-stats{display:none}}@media(max-width:700px){#dnd-banner{height:auto;min-height:0;flex-direction:column;align-items:flex-start;gap:10px;padding:14px 16px}#dnd-banner .dnd-buy{width:100%;justify-content:space-between;flex-wrap:wrap;gap:10px}#dnd-banner .dnd-note{white-space:normal}}@media(max-width:480px){#dnd-banner .dnd-note{display:none}#dnd-banner{gap:8px;padding:12px 16px}#dnd-banner .dnd-domain{font-size:19px}}@media(max-width:400px){#dnd-banner .dnd-cta{flex:1 1 100%;text-align:center;padding:12px 16px}#dnd-banner .dnd-domain{white-space:normal}}#dnd-banner{height:52px;min-height:52px;gap:16px}#dnd-banner .dnd-kicker{display:inline;font-size:11.5px;margin:0}#dnd-banner .dnd-domain{display:inline;font-size:15px;margin-left:8px}#dnd-banner .dnd-note,#dnd-banner .dnd-stats{display:none}#dnd-banner .dnd-price{font-size:17px}#dnd-banner .dnd-cta{padding:9px 16px;font-size:13.5px}@media(max-width:700px){#dnd-banner{height:auto;min-height:0;flex-direction:row;align-items:center;flex-wrap:wrap;gap:4px 12px;padding:8px 14px}#dnd-banner .dnd-main{flex:1 1 100%;line-height:1.25}#dnd-banner .dnd-kicker{font-size:10.5px}#dnd-banner .dnd-domain{font-size:14px;margin-left:6px}#dnd-banner .dnd-buy{width:100%;gap:10px}#dnd-banner .dnd-price{font-size:15px}#dnd-banner .dnd-cta{padding:8px 14px;font-size:13px;flex:0 1 auto}}</style><div id="dnd-banner" role="complementary" aria-label="Dit domein is te koop"><div class="dnd-main"><span class="dnd-kicker">Dit domein is te koop</span><span class="dnd-domain">ventilatorstaand.nl</span><span class="dnd-note">Prijs geldt voor de domeinnaam; de ingerichte website tegen meerprijs</span></div><div class="dnd-stats"><div class="dnd-stat"><span class="dnd-stat-v">30 <em>op de site</em></span><span class="dnd-stat-l">Artikelen</span></div><div class="dnd-stat"><span class="dnd-stat-v">16 <em>tekens</em></span><span class="dnd-stat-l">Lengte</span></div></div><div class="dnd-buy"><span class="dnd-price">€ 99</span><a class="dnd-cta" id="dnd-cta" href="https://domeinnaamdesk.nl/domein/ventilatorstaand.nl?utm_source=minisite&amp;utm_medium=banner&amp;utm_campaign=ventilatorstaand.nl" rel="nofollow">Bekijk op Domeinnaamdesk.nl</a></div></div><script>(function(){var a=document.getElementById("dnd-cta");if(!a)return;a.addEventListener("click",function(){try{var s=sessionStorage.getItem("dnd_sid");if(!s){s=Math.random().toString(36).slice(2)+Date.now().toString(36);sessionStorage.setItem("dnd_sid",s);}fetch("https:\/\/domeinnaamdesk.nl\/api\/track-minisite-click",{method:"POST",keepalive:true,headers:{"Content-Type":"application/json"},body:JSON.stringify({source_domain:location.hostname.replace(/^www\./,""),page_url:location.href,session_id:s})}).catch(function(){});}catch(e){}});})();</script><div class="topbar"><div class="tin"><div class="tl"><a href="/">Home</a><a href="/blog/">Alle artikelen</a><a href="/ventilator-vs-airco-kosten/">Stroomkosten-tool</a><a href="/contact/">Contact</a></div><div class="tr">Staande ventilators vergeleken: kiezen, koelen en besparen</div></div></div><header class="site"><div class="bar"><a class="logo" href="/"><span class="mk" aria-hidden="true"></span>Staande Ventilator</a><nav><a href="/waarom-een-staande-ventilator/">Waarom een staande ventilator</a><a href="/vergelijkingen/">Vergelijkingen</a><a href="/kiezen-en-kopen/">Kiezen en kopen</a><a href="/gebruik-en-onderhoud/">Gebruik en onderhoud</a><a href="/ventilator-vs-airco-kosten/">Stroomkosten-tool</a><a href="/contact/">Contact</a></nav></div></header><section class="phero"><div class="pin"><nav class="crumb"><a href="/">Home</a> / <span>Alle artikelen</span></nav><span class="eyebrow light"><span class="mk" aria-hidden="true"></span>Blog</span><h1>Alle artikelen</h1><p class="lead">Staande ventilators vergeleken: kiezen, koelen en besparen</p></div></section><div class="gridwrap"><div class="cards-3"><a class="card" href="/blog/beste-staande-ventilator-waarop-letten-2026/"><div class="ph"><img src="/img/beste-staande-ventilator-waarop-letten-2026.webp" alt="De beste staande ventilator in 2026: waar u op moet letten per criterium" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">11 juli 2026</span><h3>De beste staande ventilator in 2026: waar u op moet letten per criterium</h3><p>Geen modellenlijst maar een criteriumgids: welke specificaties bepalen in 2026 of een staande ventilator zijn geld waard is.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/hoogte-verstelbare-ventilator/"><div class="ph"><img src="/img/hoogte-verstelbare-ventilator.webp" alt="Hoogte verstelbare ventilator: welke standaardhoogte past bij welke plek" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">11 juli 2026</span><h3>Hoogte verstelbare ventilator: welke standaardhoogte past bij welke plek</h3><p>Van 29 tot 130 cm: hoe u de juiste hoogte van een staande ventilator kiest voor slaapkamer, bureau of woonkamer.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/oscillatie-en-kantelen-ventilator/"><div class="ph"><img src="/img/oscillatie-en-kantelen-ventilator.webp" alt="Oscillatie en kantelen bij een staande ventilator: wat leveren ze op" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">11 juli 2026</span><h3>Oscillatie en kantelen bij een staande ventilator: wat leveren ze op</h3><p>Hoe horizontale oscillatie en verticaal kantelen samen bepalen hoeveel van de kamer een staande ventilator daadwerkelijk bereikt…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-maakt-lawaai-oplossen/"><div class="ph"><img src="/img/ventilator-maakt-lawaai-oplossen.webp" alt="Ventilator maakt lawaai: oorzaken opsporen en oplossen" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">11 juli 2026</span><h3>Ventilator maakt lawaai: oorzaken opsporen en oplossen</h3><p>Rammelend, brommend of piepend geluid heeft meestal een concrete oorzaak. Zo spoort u het op en lost u het op, of weet u wanneer…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-met-timer-en-standen/"><div class="ph"><img src="/img/ventilator-met-timer-en-standen.webp" alt="Timer en snelheidsstanden bij een ventilator: wat kunt u instellen" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">11 juli 2026</span><h3>Timer en snelheidsstanden bij een ventilator: wat kunt u instellen</h3><p>Wat een timer en meerdere snelheidsstanden bij een staande ventilator toevoegen, en welke combinatie handig is voor overdag en &#039;…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/dc-vs-ac-ventilator/"><div class="ph"><img src="/img/dc-vs-ac-ventilator.webp" alt="DC- of AC-ventilator: wat het motortype betekent voor stroom en geluid" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>DC- of AC-ventilator: wat het motortype betekent voor stroom en geluid</h3><p>Een DC-motor verbruikt veel minder stroom en draait stiller dan een AC-motor. Lees wat dat concreet betekent bij aanschaf.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/energiezuinige-ventilator-dc-motor/"><div class="ph"><img src="/img/energiezuinige-ventilator-dc-motor.webp" alt="DC-motor of AC-motor: wat maakt een ventilator energiezuinig" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>DC-motor of AC-motor: wat maakt een ventilator energiezuinig</h3><p>Het verschil in stroomverbruik tussen een DC- en een AC-ventilator, in watt en op jaarbasis, en wanneer de meerprijs van DC zich…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-vs-raamventilator/"><div class="ph"><img src="/img/staande-ventilator-vs-raamventilator.webp" alt="Staande ventilator of raamventilator: verkoelen of juist verversen" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Staande ventilator of raamventilator: verkoelen of juist verversen</h3><p>Een raamventilator ververst de lucht, een staande ventilator verplaatst hem alleen. Lees welk apparaat bij uw doel past.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-vs-ventilatorkachel/"><div class="ph"><img src="/img/staande-ventilator-vs-ventilatorkachel.webp" alt="Staande ventilator of ventilatorkachel: één apparaat voor zomer en winter" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Staande ventilator of ventilatorkachel: één apparaat voor zomer en winter</h3><p>Een ventilatorkachel koelt en verwarmt, een staande ventilator alleen koelt. Lees wanneer één apparaat voor het hele jaar volsta…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-geluid-db-stil/"><div class="ph"><img src="/img/ventilator-geluid-db-stil.webp" alt="Ventilator geluid in dB: hoe stil is een stille staande ventilator echt" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Ventilator geluid in dB: hoe stil is een stille staande ventilator echt</h3><p>Decibelwaarden van een staande ventilator uitgelegd: wat geldt als stil, wat als storend, en waarom de laagste stand niet het he…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-luchtvochtigheid-en-planten/"><div class="ph"><img src="/img/ventilator-luchtvochtigheid-en-planten.webp" alt="Ventilator, luchtvochtigheid en kamerplanten: wat een luchtstroom met bladeren doet" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Ventilator, luchtvochtigheid en kamerplanten: wat een luchtstroom met bladeren doet</h3><p>Een ventilator droogt de lucht rond kamerplanten sneller uit. Zo herkent u schade en beschermt u gevoelige planten zonder de ven…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-met-afstandsbediening/"><div class="ph"><img src="/img/ventilator-met-afstandsbediening.webp" alt="Ventilator met afstandsbediening: wanneer is dat de moeite waard" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Ventilator met afstandsbediening: wanneer is dat de moeite waard</h3><p>Wat een afstandsbediening bij een staande ventilator toevoegt, welke functies erop zitten, en wanneer u er zonder toe kunt.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-veilig-gebruiken/"><div class="ph"><img src="/img/ventilator-veilig-gebruiken.webp" alt="Ventilator veilig gebruiken: van kinderen tot brandgevaar" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">10 juli 2026</span><h3>Ventilator veilig gebruiken: van kinderen tot brandgevaar</h3><p>Oververhitting, brandgevaar door stof en risico&#039;s voor kinderen: zo gebruikt u een staande ventilator veilig, ook &#039;s nachts en m…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/luchtverplaatsing-cfm-ventilator/"><div class="ph"><img src="/img/luchtverplaatsing-cfm-ventilator.webp" alt="Luchtverplaatsing van een ventilator: wat betekenen m³/h en CFM" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Luchtverplaatsing van een ventilator: wat betekenen m³/h en CFM</h3><p>Wat m³/h en CFM betekenen op de doos van een ventilator, hoe u ze omrekent, en welke waarde bij welke kamergrootte past.</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-kopen-waar-op-letten/"><div class="ph"><img src="/img/staande-ventilator-kopen-waar-op-letten.webp" alt="Staande ventilator kopen: waar u op moet letten voordat u kiest" loading="lazy"><span class="badge">Kiezen en kopen</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Staande ventilator kopen: waar u op moet letten voordat u kiest</h3><p>Luchtverplaatsing, geluid, motor, oscillatie en hoogte: de criteria die bepalen of een staande ventilator in uw kamer echt versc…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-stroomverbruik/"><div class="ph"><img src="/img/staande-ventilator-stroomverbruik.webp" alt="Staande ventilator stroomverbruik: wat kost een nacht of een zomer aan stroom" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Staande ventilator stroomverbruik: wat kost een nacht of een zomer aan stroom</h3><p>Een staande ventilator verbruikt 20 tot 120 watt. Wij rekenen de kosten per uur, nacht en zomer voor, en vergelijken AC- met DC-…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-vs-tafelventilator/"><div class="ph"><img src="/img/staande-vs-tafelventilator.webp" alt="Staande ventilator of tafelventilator: welk formaat past bij uw plek" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Staande ventilator of tafelventilator: welk formaat past bij uw plek</h3><p>Verschil tussen een staande en een tafelventilator in bereik, geluid en plek in huis, met advies voor bureau, slaapkamer en woon…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-vs-torenventilator/"><div class="ph"><img src="/img/staande-vs-torenventilator.webp" alt="Staande ventilator of torenventilator: verschil in luchtstroom en ruimte" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Staande ventilator of torenventilator: verschil in luchtstroom en ruimte</h3><p>Torenventilator of staande ventilator: verschil in luchtverplaatsing, geluid en ruimtebeslag, met advies voor kleine en grote ka…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-positioneren-voor-koeling/"><div class="ph"><img src="/img/ventilator-positioneren-voor-koeling.webp" alt="Ventilator positioneren voor koeling: overdag anders dan &#039;s nachts" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Ventilator positioneren voor koeling: overdag anders dan &#039;s nachts</h3><p>De juiste plek voor een ventilator hangt af van tijdstip en raamstand. Zo gebruikt u kruisventilatie en de uitblaasmethode voor …</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-vs-aircooler/"><div class="ph"><img src="/img/ventilator-vs-aircooler.webp" alt="Ventilator of aircooler: is verdampingskoeling het verschil waard" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">9 juli 2026</span><h3>Ventilator of aircooler: is verdampingskoeling het verschil waard</h3><p>Een aircooler koelt de lucht licht af met water, een ventilator alleen door luchtbeweging. Lees wanneer het verschil merkbaar is…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/slapen-met-een-ventilator-aan/"><div class="ph"><img src="/img/slapen-met-een-ventilator-aan.webp" alt="Slapen met een ventilator aan: comfortabel en toch veilig door de nacht" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">8 juli 2026</span><h3>Slapen met een ventilator aan: comfortabel en toch veilig door de nacht</h3><p>Slapen met een ventilator kan comfortabeler slapen opleveren, maar ook droge slijmvliezen geven. Praktische tips voor plaatsing,…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-schoonmaken/"><div class="ph"><img src="/img/staande-ventilator-schoonmaken.webp" alt="Staande ventilator schoonmaken: rooster, bladen en voet in een paar stappen" loading="lazy"><span class="badge">Gebruik en onderhoud</span></div><div class="cbody"><span class="dt">8 juli 2026</span><h3>Staande ventilator schoonmaken: rooster, bladen en voet in een paar stappen</h3><p>Een vieze ventilator verspreidt stof en verliest luchtstroom. Zo maakt u rooster, bladen en motorbehuizing veilig schoon, en hoe…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-vs-plafondventilator/"><div class="ph"><img src="/img/staande-ventilator-vs-plafondventilator.webp" alt="Staande ventilator of plafondventilator: welke past bij uw kamer" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">8 juli 2026</span><h3>Staande ventilator of plafondventilator: welke past bij uw kamer</h3><p>Vergelijk staande ventilator en plafondventilator op bereik, installatie, geluid en stroomverbruik, met een duidelijk advies per…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-vs-airco/"><div class="ph"><img src="/img/ventilator-vs-airco.webp" alt="Ventilator of airco: verschil in koeling, kosten en wanneer wat te kiezen" loading="lazy"><span class="badge">Vergelijkingen</span></div><div class="cbody"><span class="dt">8 juli 2026</span><h3>Ventilator of airco: verschil in koeling, kosten en wanneer wat te kiezen</h3><p>Een ventilator koelt niet echt, een airco wel. Lees het verschil in werking en stroomkosten en bereken zelf wat verkoeling u kos…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/helpt-een-ventilator-tegen-warmte/"><div class="ph"><img src="/img/helpt-een-ventilator-tegen-warmte.webp" alt="Helpt een ventilator nog tegen warmte als het echt heet wordt?" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">7 juli 2026</span><h3>Helpt een ventilator nog tegen warmte als het echt heet wordt?</h3><p>Een ventilator helpt tegen warmte tot een bepaalde temperatuur en luchtvochtigheid. Daarna keert het effect om. Wij leggen uit w…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/staande-ventilator-voordelen-nadelen/"><div class="ph"><img src="/img/staande-ventilator-voordelen-nadelen.webp" alt="Staande ventilator: voordelen en nadelen voordat u er een aanschaft" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">7 juli 2026</span><h3>Staande ventilator: voordelen en nadelen voordat u er een aanschaft</h3><p>Prijs, stroomverbruik, geluid, gezondheid en effectiviteit bij hitte: een compleet overzicht van de voor- en nadelen van een sta…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/gevoelstemperatuur-en-windchill-ventilator/"><div class="ph"><img src="/img/gevoelstemperatuur-en-windchill-ventilator.webp" alt="Gevoelstemperatuur en windchill: waarom een ventilator kouder aanvoelt dan de thermometer" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">6 juli 2026</span><h3>Gevoelstemperatuur en windchill: waarom een ventilator kouder aanvoelt dan de thermometer</h3><p>Een ventilator kan enkele graden koeler aanvoelen zonder de temperatuur te veranderen. Uitleg over windchill, luchtsnelheid en d…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/ventilator-en-gezondheid-slaap/"><div class="ph"><img src="/img/ventilator-en-gezondheid-slaap.webp" alt="Ventilator en gezondheid: wat een nachtje ventilator met uw lichaam doet" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">6 juli 2026</span><h3>Ventilator en gezondheid: wat een nachtje ventilator met uw lichaam doet</h3><p>Een ventilator kan droge slijmvliezen, verspreiding van stof en spierklachten geven. De gezondheidseffecten en praktische oploss…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/koelt-een-ventilator-de-lucht-echt/"><div class="ph"><img src="/img/koelt-een-ventilator-de-lucht-echt.webp" alt="Koelt een ventilator de lucht echt af, of voelt het alleen zo?" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">5 juli 2026</span><h3>Koelt een ventilator de lucht echt af, of voelt het alleen zo?</h3><p>Een ventilator verlaagt de kamertemperatuur niet. Uitleg over verdampingskoeling, windchill en waarom een lege kamer er niets aa…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a><a class="card" href="/blog/waarom-staande-ventilator/"><div class="ph"><img src="/img/waarom-staande-ventilator.webp" alt="Waarom een staande ventilator vaak de eerste stap tegen warmte is" loading="lazy"><span class="badge">Waarom een staande ventilator</span></div><div class="cbody"><span class="dt">5 juli 2026</span><h3>Waarom een staande ventilator vaak de eerste stap tegen warmte is</h3><p>Een staande ventilator is goedkoop, verplaatsbaar en zuinig. Wij zetten op een rij wanneer hij werkt, wanneer niet, en wat hij w…</p><span class="more">Lees verder <span class="arw">&rarr;</span></span></div></a></div></div><footer class="site"><div class="ftop"><div class="brand-col"><span class="brand"><span class="mk" aria-hidden="true"></span>Staande Ventilator</span><div class="tl">Staande ventilators vergeleken: kiezen, koelen en besparen</div></div><div><h4>Onderwerpen</h4><a href="/waarom-een-staande-ventilator/">Waarom een staande ventilator</a><a href="/vergelijkingen/">Vergelijkingen</a><a href="/kiezen-en-kopen/">Kiezen en kopen</a><a href="/gebruik-en-onderhoud/">Gebruik en onderhoud</a></div><div><h4>Blog</h4><a href="/blog/">Alle artikelen</a><a href="/sitemap.xml">Sitemap</a><a href="/ventilator-vs-airco-kosten/">Stroomkosten-tool</a><a href="/contact/">Contact</a></div></div><div class="fine"><span>&copy; 2026 Staande Ventilator &middot; Maddeco</span><span>ventilatorstaand.nl</span></div></footer><style>.sfmob-t,.sfmob-b,.sfmob-p,.sfmob-bg{display:none}@media(max-width:820px){header nav,nav.primary,.masthead nav,.topbar .tl,.nav>nav{display:none!important}.sfmob-t{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}.sfmob-b{display:flex;position:fixed;top:11px;right:11px;z-index:99999;width:46px;height:46px;flex-direction:column;justify-content:center;align-items:center;gap:5px;background:#fff;border:1px solid rgba(0,0,0,.14);border-radius:11px;box-shadow:0 6px 18px rgba(0,0,0,.16);cursor:pointer}.sfmob-b span{width:22px;height:2px;background:#222;border-radius:2px;transition:transform .3s,opacity .2s}.sfmob-bg{display:block;position:fixed;inset:0;z-index:99997;background:rgba(0,0,0,0);visibility:hidden;transition:background .28s}.sfmob-p{display:flex;flex-direction:column;position:fixed;top:0;right:0;bottom:0;width:min(80vw,320px);z-index:99998;background:#fff;box-shadow:-10px 0 34px rgba(0,0,0,.22);transform:translateX(100%);transition:transform .28s ease;padding:64px 0 24px;overflow-y:auto;-webkit-overflow-scrolling:touch}.sfmob-p a{padding:14px 24px;color:#181818;text-decoration:none;font:600 1.05rem/1.25 system-ui,-apple-system,Segoe UI,sans-serif;border-bottom:1px solid rgba(0,0,0,.06)}.sfmob-p a:active{background:rgba(0,0,0,.05)}.sfmob-t:checked~.sfmob-p{transform:translateX(0)}.sfmob-t:checked~.sfmob-bg{background:rgba(0,0,0,.42);visibility:visible}.sfmob-t:checked~.sfmob-b span:nth-child(1){transform:translateY(7px) rotate(45deg)}.sfmob-t:checked~.sfmob-b span:nth-child(2){opacity:0}.sfmob-t:checked~.sfmob-b span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}}</style><style>@media(max-width:820px){footer a{display:inline-block;padding:9px 0}}</style><style>.sf-inline-foto{margin:26px 0;padding:0}.sf-inline-foto img{display:block;width:100%;height:auto;border-radius:6px}.sf-inline-foto figcaption{margin-top:8px;font-size:.85rem;line-height:1.45;opacity:.7}</style><input type="checkbox" id="sfmob" class="sfmob-t" aria-hidden="true"><label for="sfmob" class="sfmob-b" aria-label="Menu"><span></span><span></span><span></span></label><label for="sfmob" class="sfmob-bg" aria-hidden="true"></label><nav class="sfmob-p" aria-label="Menu"><a href="/">Home</a><a href="/waarom-een-staande-ventilator/">Waarom een staande ventilator</a><a href="/vergelijkingen/">Vergelijkingen</a><a href="/kiezen-en-kopen/">Kiezen en kopen</a><a href="/gebruik-en-onderhoud/">Gebruik en onderhoud</a><a href="/ventilator-vs-airco-kosten/">Stroomkosten-tool</a><a href="/contact/">Contact</a><a href="/blog/">Alle artikelen</a></nav></body></html>
